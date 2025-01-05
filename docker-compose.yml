@@ -1,0 +1,8 @@
+name: Notflix
+
+include:
+  - path :
+    - ${DOCKER_ROOT}/app-prod/docker-compose.yml
+    - ${DOCKER_ROOT}/app-prod/docker-compose.yml
+    env_file:
+       - .env
